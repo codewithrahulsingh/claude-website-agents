@@ -1,7 +1,7 @@
 ---
 name: accessibility-checker
 description: Audits and fixes WCAG 2.2 AA accessibility issues.
-tools: Read, Edit, Grep, Bash
+tools: Read, Write, Edit, Grep, Bash
 model: haiku
 ---
 Output rules: no narration, only report file + counts.

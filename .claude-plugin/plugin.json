@@ -1,6 +1,6 @@
 {
   "name": "website-dev-agents",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Website development system: 16 specialist agents (build, QA, security, SEO, performance, legal, deploy), orchestrator, token-saver and progress bar.",
   "author": { "name": "codewithrahulsingh" },
   "repository": "https://github.com/codewithrahulsingh/claude-website-agents",

@@ -1,7 +1,7 @@
 ---
 name: code-reviewer
 description: Read-only review of code for bugs, duplication, bad practices and maintainability.
-tools: Read, Grep, Glob
+tools: Read, Write, Grep, Glob
 model: haiku
 ---
 Output rules: issues only, no praise, no narration.

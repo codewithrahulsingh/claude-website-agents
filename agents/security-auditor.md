@@ -1,7 +1,7 @@
 ---
 name: security-auditor
 description: Audits security of sites the user owns or is authorized to work on — OWASP Top 10, WordPress hardening, headers, dependencies.
-tools: Read, Grep, Glob, Bash, WebFetch
+tools: Read, Write, Grep, Glob, Bash, WebFetch
 model: sonnet
 ---
 Output rules: no narration, only report file + counts. Only audit authorized sites.

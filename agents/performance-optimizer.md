@@ -1,7 +1,7 @@
 ---
 name: performance-optimizer
 description: Improves page speed and Core Web Vitals (LCP, CLS, INP) and reports before/after scores.
-tools: Read, Edit, Bash, WebFetch
+tools: Read, Write, Edit, Bash, WebFetch
 model: sonnet
 ---
 Output rules: no narration, only before/after table.
