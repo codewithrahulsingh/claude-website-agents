@@ -4,7 +4,7 @@ Website development system for Claude: 16 specialist agents, orchestrator, token
 
 ## Install once (works in every session)
 
-**Claude app (Cowork / cloud sessions):** open the `website-dev-agents.plugin` file in chat and press Install.
+**Claude app (Cowork / cloud sessions):** download `dist/website-dev-agents.plugin` from this repo, attach it in a Claude chat and press Install.
 
 **Claude Code (terminal / desktop):**
 ```
