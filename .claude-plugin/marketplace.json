@@ -1,0 +1,14 @@
+{
+  "name": "codewithrahulsingh",
+  "owner": {
+    "name": "codewithrahulsingh"
+  },
+  "plugins": [
+    {
+      "name": "website-dev-agents",
+      "source": "./",
+      "description": "16 website development agents + orchestrator, token-saver and progress tracker."
+    }
+  ],
+  "description": "Website development agents by codewithrahulsingh"
+}

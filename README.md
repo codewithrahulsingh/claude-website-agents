@@ -1,13 +1,27 @@
-# Claude Website Agents
+# Website Dev Agents (plugin)
 
-Claude Code ke liye website development system: 16 agents, 3 skills, 3 slash commands.
+Website development system for Claude: 16 specialist agents, orchestrator, token-saver and progress bar.
 
-## Install
-Is repo ka `CLAUDE.md` aur `.claude/` folder apne website project ke root me copy karo.
+## Install once (works in every session)
+
+**Claude app (Cowork / cloud sessions):** open the `website-dev-agents.plugin` file in chat and press Install.
+
+**Claude Code (terminal / desktop):**
+```
+/plugin marketplace add codewithrahulsingh/claude-website-agents
+/plugin install website-dev-agents@codewithrahulsingh
+```
+
+Update later: `/plugin marketplace update codewithrahulsingh`
 
 ## Use
-- `/new-website <brief>` — naya project
-- `/full-audit <url>` — purani site ka audit
-- `/progress` — progress table
+- `/new-website <brief>` – new project, full pipeline
+- `/full-audit <url>` – audit an existing site (report only)
+- `/progress` – progress table
 
-Poori details: `README-full-guide.md`
+Optional: copy `templates/CLAUDE.md` into a website project folder for project rules.
+
+## Contents
+- `agents/` – 16 agents
+- `skills/` – project-orchestrator, token-saver, progress-tracker, new-website, full-audit, progress
+- `README-full-guide.md` – full documentation
